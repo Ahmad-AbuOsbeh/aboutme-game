@@ -62,6 +62,8 @@ default:
 }
 }
 question2();
+
+function question3() {
 let whatDoing = prompt('Do I\'m studying the programming now ?');
 whatDoing = whatDoing.toLowerCase();
 if (whatDoing === 'yes' || whatDoing === 'y') {
@@ -75,6 +77,8 @@ if (whatDoing === 'yes' || whatDoing === 'y') {
 } else {
   alert('please write yes or no');
 }
+}
+question3();
 
 
 let myFavouritetwo = prompt('Do I love playing football and swimming ?');
