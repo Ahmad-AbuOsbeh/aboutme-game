@@ -1,0 +1,101 @@
+header {
+    background-color: black;
+    height: 80px;
+    color: blanchedalmond;
+}
+
+#one{
+    width: 500px;
+    height: 50px;
+    margin: 20px auto 0px auto;
+    color: darkred;
+    /* padding: -15px auto 20px auto ; */
+    text-align: center;
+    font-size: 30px;
+    padding-top: 15px;
+}
+
+header nav ul li{
+    height: 15px;
+    display: inline;
+    text-decoration: none;
+    margin-left: 20px;
+    /* padding-top: -50px; */
+}
+nav{
+/* padding-bottom: %; */
+margin-top: -5px;
+text-decoration: none;
+}
+
+header nav ul{
+    text-decoration: none;
+}
+
+.intro{
+    height: 100px;
+    /* width: 1000px; */
+    font-size: 25px;
+    font-weight: 200;
+    background-color: rgb(126, 100, 35);
+    /* font-stretch: expanded; */
+    font-style: oblique;
+    margin: 5px;
+    padding: 5px;
+}
+
+img{
+    width: 500px;
+    height: 750px;
+    border: solid;
+    /* background-color: darkred; */
+}
+
+main{
+    background-color: darkred;
+}
+
+.top10{
+    width: 495px; ;
+    background-color: whitesmoke;
+    height: 30px;
+    font-size: larger;
+    margin-left: 5px;
+    padding-left: 5px;
+    border: solid;
+}
+.sports{
+    width: 495px; ;
+    background-color: whitesmoke;
+    height: 200px;
+    font-size: larger;
+    margin-left: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    border: solid;
+}
+
+.edu{
+    width: 495px; ;
+    background-color: whitesmoke;
+    height: 50px;
+    font-size: larger;
+    margin-left: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    border: solid;
+}
+
+footer{
+    height: 60px;
+    background-color: black;
+    border: solid whitesmoke;
+}
+
+footer h4{
+    color: red;
+    text-align: center;
+    padding-top: 10px;
+    font-size: larger;
+    /* border: whitesmoke solid; */
+}
