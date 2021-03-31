@@ -103,6 +103,8 @@ default:
 }
 question4();
 
+function question5() {
+  
 for (let i = 0; i < 4; i++) {
 
   let guessNumber = prompt('guess the number that in my mind ? please write number from 1 - 10');
@@ -128,6 +130,9 @@ for (let i = 0; i < 4; i++) {
     break;
   }
 }
+}
+question5();
+
 // console.log('string');
 let guessSports = ['basketball', 'football', 'cycling', 'hicking', 'swimming', 'badminton'];
 let userAnswer=null;
