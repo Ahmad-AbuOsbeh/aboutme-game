@@ -116,10 +116,10 @@ for (let i = 0; i < 4; i++) {
 }
 // console.log('string');
 let guessSports = ['basketball', 'football', 'cycling', 'hicking', 'swimming', 'badminton'];
+let userAnswer=null;
+for (let j = 0; j < 6; j++) {
 
-for (let j = 0; j < 5; j++) {
-
-  let userAnswer = prompt('what are the best sport for me ?');
+  userAnswer= prompt('what are the best sport for me ?');
   userAnswer=userAnswer.toLowerCase();
 
 
@@ -128,21 +128,23 @@ for (let j = 0; j < 5; j++) {
     // const element = array[i];
 
     if (userAnswer === guessSports[i]) {
-      break;
+      j=6;
+      alert(`Great! playing ${userAnswer} is the best sport for me `);
+      // break;
     }
 
   }
 
-  if (userAnswer === guessSports[1] || userAnswer===guessSports[2]) {
-    alert(`Great! playing ${userAnswer} is the best sport for me`);
-    score++;
-    break;
-  } else if (userAnswer !== guessSports[1] || userAnswer !== guessSports[2]) {
+  if (j===5){
 
+    alert('you ran out all attempts!');
+  } else if(j<6){
     alert(`NO, its not ${userAnswer} please try again you have ${5 - j} attempts`);
-
   }
+
+
 }
+alert(`these are the best sporets for me ${guessSports}`);
 
 alert(`your score is ${score}/7`);
 // for (let j = 0; j < 5; j++) {
