@@ -31,6 +31,7 @@
 
 ## 30/3/2021 - Tuesday
 
+
 - For JS file:
  - I asked the users two more questions, the first one to guess a certain number that is in my mind, and he has 4 attempts to answer it.
  - the second one to guess my favourate sport, and he has 6 attempts.
@@ -42,6 +43,25 @@
 
 - For CSS :
  - added some formatting of my page.
+
+ ## Lab04
+#### today was the third day of this project.
+
+## 31/3/2021 - wednesday
+
+
+- For JS file:
+ - Adding functions to the questions I did yesterday.
+
+- For HTML file :
+ - We didn't do anything on it.
+
+- For CSS :
+ - We didn't do anything on it.
+
+We did pair pogramming with my partner: @heba-Abdallah 
+The nevigator for this code :
+The driver fot this code : [heba-Abdallah](https://github.com/heba-Abdallah)
 
 ### feedback questions for the lab :
 
