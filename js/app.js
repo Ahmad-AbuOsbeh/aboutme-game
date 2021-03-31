@@ -80,7 +80,8 @@ if (whatDoing === 'yes' || whatDoing === 'y') {
 }
 question3();
 
-
+function question4() {
+  
 let myFavouritetwo = prompt('Do I love playing football and swimming ?');
 
 switch (myFavouritetwo.toLowerCase()) {
@@ -99,6 +100,8 @@ default:
   alert('please write yes or no');
   break;
 }
+}
+question4();
 
 for (let i = 0; i < 4; i++) {
 
