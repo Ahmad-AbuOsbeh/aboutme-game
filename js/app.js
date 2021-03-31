@@ -139,7 +139,8 @@ function question6() {
 question6();
 
 
-
+function question7() {
+  
   // console.log('string');
   let guessSports = ['basketball', 'football', 'cycling', 'hicking', 'swimming', 'badminton'];
   let userAnswer = null;
@@ -171,6 +172,8 @@ question6();
 
   }
   alert(`these are the best sporets for me ${guessSports}`);
+}
+question7();
 
   alert(`your score is ${score}/7`);
 // for (let j = 0; j < 5; j++) {
