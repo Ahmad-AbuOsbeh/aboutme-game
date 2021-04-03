@@ -1,7 +1,20 @@
 'use strict';
 
-let userName = prompt('what\'s your name ?');
-alert('welcome ' + userName);
+
+let userName;
+while (!userName) {
+
+  userName=prompt('what\'s your name ?');
+  if (userName) {
+
+    alert('welcome ' + userName);
+  }
+  if (!userName) {
+    alert('please write your name');
+  }
+}
+
+
 
 let score = 0;
 function question1() {
