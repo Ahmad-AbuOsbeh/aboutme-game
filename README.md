@@ -63,16 +63,21 @@ We did pair pogramming with my partner: @heba-Abdallah
 The nevigator for this code :
 The driver fot this code : [heba-Abdallah](https://github.com/heba-Abdallah)
 
-### feedback questions for the lab :
+## Lab05b
+#### today was the fourth day of this project.
+## 3/4/2021 - satarday
 
-- How did this go, overall?
-  - all things was good,even when I faced some problems and errors, I tried more than one time, then asked TA's for help and all things done correctly.
+- For JS file:
+ - edited welcoming message, to be repeated if the user didn't answer.
 
-- What observations or questions do you have about what you’ve learned so far?
-  - for now I have no questions yet.
+- For HTML file :
+ - added some id and classes to link them with CSS.
 
-- How long did it take you to complete this assignment? And, before you started,
-   - it takes around 3 hours
+- For CSS :
+ - added some formattings : positions,font-style,font-size,color..etc
+ - made the look of my website good.
 
-- how long did you think it would take you to complete this assignment?
-   - I thinked it needs around 1.5 hour!
+ ### this was the final touch on this project.
+
+
+
