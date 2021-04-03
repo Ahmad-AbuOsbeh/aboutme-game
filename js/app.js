@@ -8,20 +8,20 @@ function question1() {
   let myMajor = prompt('Does my major is mechanical engineering ?');
   myMajor = myMajor.toLowerCase();
   switch (myMajor) {
-    case 'yes':
-    case 'y':
-      //   console.log(myMajor);
-      alert('Yes you are right');
-      score++;
-      break;
-    case 'no':
-    case 'n':
-      //   console.log(myMajor);
-      alert('NO, I am MECHANICAL ENGINEER!');
-      break;
-    default:
-      alert('please write yes or no');
-      break;
+  case 'yes':
+  case 'y':
+
+    alert('Yes you are right');
+    score++;
+    break;
+  case 'no':
+  case 'n':
+
+    alert('NO, I am MECHANICAL ENGINEER!');
+    break;
+  default:
+    alert('please write yes or no');
+    break;
   }
 }
 question1();
@@ -31,11 +31,9 @@ function question2() {
   let myFavouriteone = prompt('Do I love basketball more than the Hicking ?');
   myFavouriteone = myFavouriteone.toLowerCase();
   if (myFavouriteone === 'yes' || myFavouriteone === 'y') {
-    //   console.log('if1',myFavouriteone);
     alert('No, I love Hicking More');
 
   } else if (myFavouriteone === 'no' || myFavouriteone === 'n') {
-    //   console.log('if2',myFavouriteone);
     alert('yes, I love Hicking More');
     score++;
   } else {
@@ -49,20 +47,18 @@ function question3() {
   let hatefulHabit = prompt('Do I hate the somking ?');
   hatefulHabit = hatefulHabit.toLowerCase();
   switch (hatefulHabit) {
-    case 'yes':
-    case 'y':
-      //   console.log(hatefulHabit);
-      alert('Yes you are right');
-      score++;
-      break;
-    case 'no':
-    case 'n':
-      //   console.log(hatefulHabit);
-      alert('NO, I hate it!');
-      break;
-    default:
-      alert('please write yes or no');
-      break;
+  case 'yes':
+  case 'y':
+    alert('Yes you are right');
+    score++;
+    break;
+  case 'no':
+  case 'n':
+    alert('NO, I hate it!');
+    break;
+  default:
+    alert('please write yes or no');
+    break;
   }
 }
 question3();
@@ -72,12 +68,10 @@ function question4() {
   let whatDoing = prompt('Do I\'m studying the programming now ?');
   whatDoing = whatDoing.toLowerCase();
   if (whatDoing === 'yes' || whatDoing === 'y') {
-    //   console.log('if1',whatDoing);
     alert('yes sure');
     score++;
 
   } else if (whatDoing === 'no' || whatDoing === 'n') {
-    //   console.log('if2',whatDoing);
     alert('no,I\'m studying');
   } else {
     alert('please write yes or no');
@@ -90,20 +84,18 @@ function question5() {
   let myFavouritetwo = prompt('Do I love playing football and swimming ?');
 
   switch (myFavouritetwo.toLowerCase()) {
-    case 'yes':
-    case 'y':
-      //   console.log(myFavouritetwo);
-      alert('Yes you are right');
-      score++;
-      break;
-    case 'no':
-    case 'n':
-      //   console.log(myFavouritetwo);
-      alert('NO, I love it!');
-      break;
-    default:
-      alert('please write yes or no');
-      break;
+  case 'yes':
+  case 'y':
+    alert('Yes you are right');
+    score++;
+    break;
+  case 'no':
+  case 'n':
+    alert('NO, I love it!');
+    break;
+  default:
+    alert('please write yes or no');
+    break;
   }
 }
 question5();
@@ -140,8 +132,7 @@ question6();
 
 
 function question7() {
-  
-  // console.log('string');
+
   let guessSports = ['basketball', 'football', 'cycling', 'hicking', 'swimming', 'badminton'];
   let userAnswer = null;
   for (let j = 0; j < 6; j++) {
@@ -152,12 +143,11 @@ function question7() {
 
 
     for (let i = 0; i < guessSports.length; i++) {
-      // const element = array[i];
 
       if (userAnswer === guessSports[i]) {
         j = 6;
         alert(`Great! playing ${userAnswer} is the best sport for me `);
-        // break;
+
       }
 
     }
@@ -175,14 +165,4 @@ function question7() {
 }
 question7();
 
-  alert(`your score is ${score}/7`);
-// for (let j = 0; j < 5; j++) {
-// const element = array[j];
-// console.log('the first loop', j);
-// for (let i = 0; i < 10; i++) {
-//   console.log('the second loop', i);
-// const element = array[i];
-
-//   }
-
-// }
+alert(`your score is ${score}/7`);
